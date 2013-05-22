@@ -12,6 +12,8 @@
 - underline
 - inverse
 
+----
+
 - black
 - red
 - green
@@ -20,6 +22,8 @@
 - magenta
 - cyan
 - white
+
+----
 
 - blackBg
 - redBg
@@ -30,6 +34,8 @@
 - cyanBg
 - whiteBg
 
+----
+
 - blackHi
 - redHi
 - greenHi
@@ -38,6 +44,8 @@
 - magentaHi
 - cyanHi
 - whiteHi
+
+----
 
 - blackBgHi
 - redBgHi
@@ -55,6 +63,8 @@
 - magentaHiBg
 - cyanHiBg
 - whiteHiBg
+
+----
 
 - rainbow
 - zebra
