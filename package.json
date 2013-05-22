@@ -1,0 +1,17 @@
+{
+    "name": "ccolors",
+    "description": "get colors in your node.js cli console like what",
+    "version": "0.0.1",
+    "author": "Moshe",
+    "homepage": "https://github.com/kolodny/ccolors",
+    "bugs": "https://github.com/kolodny/ccolors/issues",
+    "keywords": [ "ansi", "terminal", "colors" ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kolodny/ccolors"
+    },
+    "engines": {
+        "node": ">=0.1.90"
+    },
+    "main": "ccolors"
+}
