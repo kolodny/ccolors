@@ -9,7 +9,7 @@ based off of colors.js
 https://github.com/marak/colors.js/
 */
 
-exports = { disabled: false };
+exports.disabled = false;
 
 //
 // Prototypes the string object to have additional method calls that add terminal colors
