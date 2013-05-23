@@ -9,7 +9,7 @@ based off of colors.js
 https://github.com/marak/colors.js/
 */
 
-exports.mode = "console";
+exports = { disabled: false };
 
 //
 // Prototypes the string object to have additional method calls that add terminal colors
@@ -38,12 +38,10 @@ colors.forEach(function(style, i) {
 });
 
 function stylize(str, style) {
-  if (exports.mode === 'console') {
-    return style[0] + str + style[1];
-  } else if (exports.mode === 'none') {
+  if (exports.disabled) {
     return str+'';
   } else {
-    console.log('unsupported mode, try "browser", "console" or "none"');
+    return style[0] + str + style[1];
   }
 }
 

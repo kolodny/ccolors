@@ -1,7 +1,7 @@
 {
     "name": "ccolors",
     "description": "get colors in your node.js cli console like what",
-    "version": "0.0.2",
+    "version": "0.2.0",
     "author": "Moshe",
     "homepage": "https://github.com/kolodny/ccolors",
     "bugs": "https://github.com/kolodny/ccolors/issues",
